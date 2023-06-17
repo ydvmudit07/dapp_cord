@@ -79,10 +79,10 @@ describe("Dappcord", function () {
       expect(result).to.be.equal(ID)
     })
     
-    // it('Updates the contract balance', async () => {
-    //   const result = await dappcord.getBalance(dappcord.address)
-    //   expect(result).to.be.equal(AMOUNT)
-    // })
+    it('Updates the contract balance', async () => {
+      const result = await ethers.provider.getBalance(dappcord.address)
+      expect(result).to.be.equal(AMOUNT)
+    })
   })
 })
   
