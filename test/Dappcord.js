@@ -98,6 +98,7 @@ describe("Dappcord", function () {
 
       transaction = await dappcord.connect(deployer).withdraw()
       await transaction.wait()
+      console.log(transaction)
     })
 
     it ('Updates the owner balance', async () => {

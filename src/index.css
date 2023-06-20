@@ -59,8 +59,8 @@ nav {
 
 .nav__connect {
   width: 175px;
-  height: 50px;
-  margin: 0 75px 0 auto;
+  height: 40px;
+  margin: 5px 75px 5px auto;
 
   background-color: var(--clr-dark-grey);
   color: var(--clr-white);
