@@ -18,4 +18,6 @@ const Servers = () => {
   );
 }
 
+// this is a dappcord server
+
 export default Servers;
